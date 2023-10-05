@@ -1,0 +1,13 @@
+.vertical {
+    float: left;
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 0.5rem;
+    margin-right: 0.5rem;        
+}
+.topic {
+    text-align: center;
+    margin:auto;
+}
+.ProPicture {
+    text-align: center;
+}
