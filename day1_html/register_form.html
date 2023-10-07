@@ -4,32 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 2 RegisterForm</title>
+    <link rel="stylesheet" href="./styleforHW2.css">
   </head>
   <body>
     <div>
-      <form action="demo_form.asp">
-        Firstname:
-        <input type="text" name="Firstname" /> <br />
-        Lastname:
-        <input type="text" name="Lastname" /> <br />
-        Password:
-        <input type="password" name="Password" /> <br />
-        Confirm Password:
-        <input type="password" name="ConfirmPassword" /> <br />
-        Email:
-        <input type="email" name="Email" /> <br />
-        Confirm Email:
-        <input type="email" name="ConfirmEmail" /> <br />
-        Birthday:
-        <input type="date" name="ConfirmEmail" /> <br />
-        Gender
-        <input type="radio" name="Gender" value="1" /> Male
-        <input type="radio" name="Gender" value="2" /> Female
-        <br />
-        <input type="submit" />
-        <input type="reset" />
-
-      </form>
+      <fieldset>
+        <legend>Register Form</legend>
+        <form action="">
+          <table>
+            <tr>
+              <td>
+                <p>Firstname:</p>
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Lastname:</p>
+              </td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Password:</p>
+              </td>
+              <td>
+                <input type="password" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Confirm Password:</p>
+              </td>
+              <td>
+                <input type="password" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Email:</p>
+              </td>
+              <td>
+                <input type="email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Confirm Email:</p>
+              </td>
+              <td>
+                <input type="email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Birthday:</p>
+              </td>
+              <td>
+                <!-- รอใส่ input -->
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Gender:</p>
+              </td>
+              <td>
+                <p> <input type="radio" /> Male </p>
+                <p> <input type="radio" /> Female </p>
+              </td>
+            </tr>
+          </table>
+  
+          Birthday:
+          <input type="date" name="ConfirmEmail" /> <br />
+          <!-- Gender
+          <input type="radio" name="Gender" value="1" /> Male
+          <input type="radio" name="Gender" value="2" /> Female
+          <br /> -->
+          <input type="submit" />
+          <input type="reset" />
+        </form>
+      </fieldset>
     </div>
   </body>
 </html>
