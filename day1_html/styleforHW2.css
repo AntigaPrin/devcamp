@@ -2,3 +2,16 @@ fieldset{
     width: 500px;
     margin: auto;
 }
+td{
+    width: 150px;
+}
+.textinput{
+    width: 250px;
+}
+table{
+   margin: auto;   
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
