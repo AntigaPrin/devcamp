@@ -1,0 +1,49 @@
+// Homework 1.1
+[
+    {
+      "firstname": "ชื่อตัวเอง",
+      "lastname": "นามสกุลตัวเอง",
+      "age": "อายุตัวเอง",
+      "gender": "เพศตัวเอง",
+      "address": {
+        "sub_district": "sub_district (ตำบล)",
+        "district": "district (อำเภอ)",
+        "province": "province (จังหวัด)"
+      },
+      "contact": {
+        "mobile": "mobile (เบอร์มั่ว)",
+        "email": "email (อีเมล์มั่ว)"
+      }
+    },
+    {
+      "firstname": "Paiboon",
+      "lastname": "Panusbordee",
+      "age": 35,
+      "gender": "male",
+      "address": {
+        "sub_district": "Mahasawasd",
+        "district": "Bangkrew",
+        "province": "Nonthaburi"
+      },
+      "contact": {
+        "mobile": "0999999999",
+        "email": "paiboonpa@thaiprogrammer.org"
+      }
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Parker",
+      "age": 17,
+      "gender": "male",
+      "address": {
+        "sub_district": "Chrystie Street",
+        "district": "Manhattan",
+        "province": "New York"
+      },
+      "contact": {
+        "mobile": "0999999999",
+        "email": "spiderman@marvel.com"
+      }
+    }
+  ]
+  
